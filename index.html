@@ -5,26 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-        <div class="row" style="text-align: center">
-         <input type="search" id="search" placeholder="Search By location">
-        </div>
+    <nav class="navbar">
+        <div>Weather App</div>
+    </nav>
+<div class="head">
+    <h2>lets find the Weather !!!</h2>
+</div>
+    <main class="main">
         <div class="row">
-            <div>
-                <img src="" alt="">
-            </div>
-            <div>
-                <h2>32 celcius</h2>
-                <h4>Clear</h4>
-            </div>
+            <form action="">
+              <input type="search" id="search" placeholder="Search by city name">
+        
+            </form>
+           </div>   
+        <div class="row" id="weather">
+      <!-- <div class="image">
+        <img src="./images.png" alt="">
+      </div>
+      <div>
+        <h2>23 celsius</h2>
+        <h4>Clear sky</h4>
+      </div> -->
         </div>
+       
     </main>
-    
 
-
-    <script src="./app.js"> </script>
+    <script src="./script.js"></script>
 </body>
 </html>
